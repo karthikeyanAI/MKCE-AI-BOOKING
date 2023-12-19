@@ -89,4 +89,129 @@ JavaScript + SWC
 TypeScript + SWC
 ```
 
+## install yarn 
+```bash
+npm install --global yarn
+```
+- vite will create react app in client folder 
+- and in client folder the default folders  and files will create 
+- under the src folder we need to alter and create the folders
+## install pakages in client folder
+- using yarn add we can install the pakges
+  
+```bash
+yarn add react-router-dom
+yarn add axios
+yarn add tailwindcss
+```
+- then we need to modify some files in src folder and create some files
+- first remove the content of app.css
+- then create the files in src folder the name of the files are
+- AccountNav.jsx
+- AddressLink.jsx
+- BookingDates.jsx
+- BookingWidget.jsx
+- Header.jsx
+- Layout.jsx
+- Perks.jsx
+- PhotoUploader.jsx
+- PlaceGallery.jsx
+- PlaceImg.jsx
+- UserContext.jsx
+ modify the code in listed files
+- App.jsx
+- main.jsx
+- index.css
+## App.jsx
+```react
+import './App.css'
+import {Route, Routes} from "react-router-dom";
+import IndexPage from "./pages/IndexPage.jsx";
+import LoginPage from "./pages/LoginPage";
+import Layout from "./Layout";
+import RegisterPage from "./pages/RegisterPage";
+import axios from "axios";
+import {UserContextProvider} from "./UserContext";
+import ProfilePage from "./pages/ProfilePage.jsx";
+import PlacesPage from "./pages/PlacesPage";
+import PlacesFormPage from "./pages/PlacesFormPage";
+import PlacePage from "./pages/PlacePage";
+import BookingsPage from "./pages/BookingsPage";
+import BookingPage from "./pages/BookingPage";
+
+axios.defaults.baseURL ='http://localhost:4000';
+axios.defaults.withCredentials = true;
+
+function App() {
+  return (
+    <UserContextProvider>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<IndexPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/account" element={<ProfilePage />} />
+          <Route path="/account/places" element={<PlacesPage />} />
+          <Route path="/account/places/new" element={<PlacesFormPage />} />
+          <Route path="/account/places/:id" element={<PlacesFormPage />} />
+          <Route path="/place/:id" element={<PlacePage />} />
+          <Route path="/account/bookings" element={<BookingsPage />} />
+          <Route path="/account/bookings/:id" element={<BookingPage />} />
+        </Route>
+      </Routes>
+    </UserContextProvider>
+  )
+}
+
+export default App
+```
+
+## index.css
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],
+input[type="email"],input[type="number"],
+input[type="tel"],
+textarea{
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+textarea{
+    height: 140px;
+}
+button{
+    @apply bg-gray-300;
+}
+button.primary{
+    background-color: #2DFADB;
+    @apply bg-primary p-2 w-full text-white rounded-2xl;
+}
+
+
+```
+
+## main.jsx
+```react
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+import {BrowserRouter} from "react-router-dom";
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+)
+```
+
+
+
+
+
+
 
