@@ -123,7 +123,7 @@ yarn add tailwindcss
 - main.jsx
 - index.css
 ## App.jsx
-```react
+```python
 import './App.css'
 import {Route, Routes} from "react-router-dom";
 import IndexPage from "./pages/IndexPage.jsx";
@@ -193,7 +193,7 @@ button.primary{
 ```
 
 ## main.jsx
-```react
+```python
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
