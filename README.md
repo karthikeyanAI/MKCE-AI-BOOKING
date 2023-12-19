@@ -1229,7 +1229,7 @@ export default function RegisterPage() {
 - cookie-parser
 
   using yarn add we can install all those pakages
-  ```bash
+```bash
    yarn add express
    yarn add cors
    yarn add mongoose
@@ -1238,13 +1238,7 @@ export default function RegisterPage() {
    yarn add image-downloader
    yarn add cookie-parser
 ```
-
-
-
-
-
 ## index.js
-
  ```python
   const express = require('express');
   const cors = require('cors');
