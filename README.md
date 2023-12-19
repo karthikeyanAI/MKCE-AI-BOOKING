@@ -1,5 +1,41 @@
 # MKCE-AI-BOOKING
  Hotal booking application with MERN fullstack technology
+
+ ## Screen shots
+ ### index page
+![WhatsApp Image 2023-12-20 at 1 40 13 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/31cec13e-1ed6-48e0-8a01-2a32d4619222)
+
+
+### Profile page
+![WhatsApp Image 2023-12-20 at 1 41 20 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/4908d723-221e-46be-8941-316c3fada927)
+
+###  my booking page
+![WhatsApp Image 2023-12-20 at 1 41 38 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/1451e003-a09a-4c36-b977-ddcd487436a8)
+
+### my accommodation page
+![WhatsApp Image 2023-12-20 at 1 42 00 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/6af4af0a-48fa-414b-a8f1-c767f6f92ab6)
+
+
+### add places page
+![WhatsApp Image 2023-12-20 at 1 42 28 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/140f63f7-7c14-4238-a51f-13b45a6b09ff)
+
+### place page
+![WhatsApp Image 2023-12-20 at 1 43 02 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/e53e9904-a091-43b4-84f1-58ede8f15e6f)
+
+### booking form
+![WhatsApp Image 2023-12-20 at 1 44 26 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/1ce9a88b-fcb2-4905-93e4-2d8491cbfe29)
+
+### booking comfirm page
+![WhatsApp Image 2023-12-20 at 1 44 48 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/d24a6f5a-5216-4027-b7c2-245bb7002d28)
+
+
+### login page
+ ![WhatsApp Image 2023-12-20 at 1 44 26 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/ef7e5f8a-a543-4049-be9f-0301e70dae84)
+
+ ### register page
+ ![WhatsApp Image 2023-12-20 at 1 44 48 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/86955996-7097-4535-9eb8-6584bd7479cc)
+
+ 
  ## Dependanceies
 - Node js
 - React js
@@ -9,7 +45,9 @@
 
 ## Installations process
 - create the project folder with name of MKCE-AI
-- Install the node js on the project folder 
+- Install the node js on the project folder
+  
+
 
 
 
