@@ -30,10 +30,12 @@
 
 
 ### login page
- ![WhatsApp Image 2023-12-20 at 1 44 26 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/ef7e5f8a-a543-4049-be9f-0301e70dae84)
+![WhatsApp Image 2023-12-20 at 1 52 09 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/ba3b6438-84dc-4e04-b714-361805f44996)
+
 
  ### register page
- ![WhatsApp Image 2023-12-20 at 1 44 48 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/86955996-7097-4535-9eb8-6584bd7479cc)
+![WhatsApp Image 2023-12-20 at 1 52 27 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/758e72b5-5a4b-4027-9b22-a5b053b2f41a)
+
 
  
  ## Dependanceies
