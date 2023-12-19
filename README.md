@@ -25,7 +25,7 @@
 ### booking form
 ![WhatsApp Image 2023-12-20 at 1 44 26 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/1ce9a88b-fcb2-4905-93e4-2d8491cbfe29)
 
-### booking comfirm page
+### booking confirm page
 ![WhatsApp Image 2023-12-20 at 1 44 48 AM](https://github.com/karthikeyanAI/MKCE-AI-BOOKING/assets/93039874/d24a6f5a-5216-4027-b7c2-245bb7002d28)
 
 
